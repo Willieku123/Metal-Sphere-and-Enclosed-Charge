@@ -150,11 +150,3 @@ while True:
 
     # Draw the chart
     f1.plot(pos=(t, abs(s)))
-
-    # Detect keyboard events
-    if scene.kb.keys: 
-        s = scene.kb.getkey()
-        if s == 'i':
-            ()
-        elif s == 'o':
-            change_outer_opacity()
